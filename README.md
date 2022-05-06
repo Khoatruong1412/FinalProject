@@ -8,6 +8,12 @@ We use boxplots and anova to pick categorical features, and then we use correlat
 
 ### DATA:
 - 1460 Training samples with 79 explanatory variables.
-- After cleaning the datasets, we only use 38 features with the same amount of training data.
+- Size of the whole data folder: 957.39 kB.
+
+### Preprocessing / Clean up:
+- Using ANOVA, boxplots, correlation matrix, and pandas to choose and clean up features.
+- We only use 38 features with the same amount of training data.
 - 75% of the data is training set, 25% of the data is testing test.
-- Size of the whole data folder: 957.39 kB
+
+### Data visualization:
+
