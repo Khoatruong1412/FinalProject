@@ -5,3 +5,9 @@ This repository holds an attempt to apply 3 different regression techniques: XGB
 
 ### Approach:
 We use boxplots and anova to pick categorical features, and then we use correlation matrix to pick numerical features. Then, we compare the 3 different models and see which one performs best. XGB performs with the RMSE between predicted log prices: 0.1505.
+
+### DATA:
+- 1460 Training samples with 79 explanatory variables.
+- After cleaning the datasets, we only use 38 features with the same amount of training data.
+- 75% of the data is training set, 25% of the data is testing test.
+- Size of the whole data folder: 957.39 kB
