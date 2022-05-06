@@ -40,3 +40,15 @@ We use boxplots and anova to pick categorical features, and then we use correlat
 ### Future Work:
 - Keep the target variables original and see if it performs better than log price.
 - Some parts of the dwelling can strongly determine the price.
+
+# How to reproduce the results above:
+#### Instructions: 
+- Import the training and testing sets with pandas.
+- Plot all the boxplots for categorical features (The description text will let you know which one is categorical).
+- Remove categorical features that have bad box plots and use one way ANOVA to choose your features.
+- Use the correlation matrix to choose the numerical features.
+- IMPORTANT: When do label encoding, make sure that the test data and train data have the same number of features. Some of categorical features in test set don't contain all categories in the training set. 
+- SOLUTION: Append extra rows to the dataframes so label encoding can produce the right amount of features.
+
+#### Software Setup:
+- 
