@@ -51,7 +51,13 @@ We use boxplots and anova to pick categorical features, and then we use correlat
 - SOLUTION: Append extra rows to the dataframes so label encoding can produce the right amount of features.
 
 #### Overview of the files in the repo:
-- 
+- Data analysis.ipynb: File that analyzes the training dataset.
+- Data outlook.ipynb: File that looks at all the raw features and see if there are no mismatch going on.
+- Data model.ipynb: File that creates the models and train the models with the transformed train dataset.
+- Transformed Train.csv: The training dataset that has been cleaned and label encoded with the target variable.
+- Transformed Test.csv: The testing dataset that has been cleaned and label encoded, used to generate predicted prices.
+- train.csv: Original training dataset.
+- test.csv: Original testing dataset. 
 
 #### Software Setup:
 - pandas, matplotlib, sklearn, statsmodels, scipy stats.
