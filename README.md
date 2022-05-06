@@ -18,23 +18,17 @@ We use boxplots and anova to pick categorical features, and then we use correlat
 
 ### Data visualization:
 ![SalePrice](https://user-images.githubusercontent.com/89664955/167196474-3d4d3ec8-1f08-45f9-98c8-245f59f7c0eb.JPG)
+![LogSalePrice](https://user-images.githubusercontent.com/89664955/167196562-2810292d-b667-49d8-912f-e6035f4e8746.JPG)
+![OverallQual](https://user-images.githubusercontent.com/89664955/167196664-6d0e0c69-e95e-4266-91ff-a633f5dcf2ad.JPG)
 
+### Correlation with the log Sale Price:
+![Numericalfeatures](https://user-images.githubusercontent.com/89664955/167196792-50a71a1e-08b0-484d-af76-52bfa0d3078a.JPG)
 
-### Performance Comparison:
-- RMSE between log prices:
-+ XGB: 0.1505
-+ Random Forest: 0.1528
-+ AdaBoost: 0.2036
+### Correlation matrix between the features:
+![Correlation Table](https://user-images.githubusercontent.com/89664955/167196852-65226ccd-3ab9-4495-8bc8-81b4d4ca97d6.JPG)
 
-- RMSE Actual Prices:
-+ XGB: 30352.2563
-+ Random Forest: 29835.2760
-+ AdaBoost: 38260.0632
-
-- R2 Actual Prices:
-+ XGB: 0.8685
-+ Random Forest: 0.8729
-+ AdaBoost: 0.7910
+### Performance Comparison (Metrics):
+![ModelPerfomance](https://user-images.githubusercontent.com/89664955/167196943-6c248950-8dc9-419b-aca6-e48f0e60004c.JPG)
 
 ### Conclusion:
 - Even though Random Forest has a higher R2, XGB achieved a better RMSE log price, the metric that the competition evaluates on.
@@ -49,6 +43,7 @@ We use boxplots and anova to pick categorical features, and then we use correlat
 - Plot all the boxplots for categorical features (The description text will let you know which one is categorical).
 - Remove categorical features that have bad box plots and use one way ANOVA to choose your features.
 - Use the correlation matrix to choose the numerical features.
+- Fill in missing values with 0's in the test set for a few features.
 - IMPORTANT: When do label encoding, make sure that the test data and train data have the same number of features. Some of categorical features in test set don't contain all categories in the training set. 
 - SOLUTION: Append extra rows with features containing missing categorical features to the dataframes so label encoding can produce the right amount of features.
 
