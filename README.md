@@ -50,5 +50,13 @@ We use boxplots and anova to pick categorical features, and then we use correlat
 - IMPORTANT: When do label encoding, make sure that the test data and train data have the same number of features. Some of categorical features in test set don't contain all categories in the training set. 
 - SOLUTION: Append extra rows to the dataframes so label encoding can produce the right amount of features.
 
-#### Software Setup:
+#### Overview of the files in the repo:
 - 
+
+#### Software Setup:
+- pandas, matplotlib, sklearn, statsmodels, scipy stats.
+
+#### Data/Citation:
+- All the data is from GitHub.
+- https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques/data
+
