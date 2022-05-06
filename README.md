@@ -29,8 +29,14 @@ We use boxplots and anova to pick categorical features, and then we use correlat
 + Random Forest: 29835.2760
 + AdaBoost: 38260.0632
 
-- R2 Actual Price:
+- R2 Actual Prices:
 + XGB: 0.8685
 + Random Forest: 0.8729
 + AdaBoost: 0.7910
 
+### Conclusion:
+- Even though Random Forest has a higher R2, XGB achieved a better RMSE log price, the metric that the competition evaluates on.
+
+### Future Work:
+- Keep the target variables original and see if it performs better than log price.
+- Some parts of the dwelling can strongly determine the price.
