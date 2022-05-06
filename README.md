@@ -46,6 +46,7 @@ We use boxplots and anova to pick categorical features, and then we use correlat
 - Fill in missing values with 0's in the test set for a few features.
 - IMPORTANT: When do label encoding, make sure that the test data and train data have the same number of features. Some of categorical features in test set don't contain all categories in the training set. 
 - SOLUTION: Append extra rows with features containing missing categorical features to the dataframes so label encoding can produce the right amount of features.
+- If you do the data cleaning well, just use Data_model.ipynb and you will easily get these results.
 
 #### Overview of the files in the repo:
 - Data analysis.ipynb: File that analyzes the training dataset.
