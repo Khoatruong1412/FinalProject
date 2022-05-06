@@ -17,6 +17,7 @@ We use boxplots and anova to pick categorical features, and then we use correlat
 - 75% of the data is training set, 25% of the data is testing test (Using the Transformed train.csv).
 
 ### Data visualization:
+![SalePrice](https://user-images.githubusercontent.com/89664955/167196474-3d4d3ec8-1f08-45f9-98c8-245f59f7c0eb.JPG)
 
 
 ### Performance Comparison:
