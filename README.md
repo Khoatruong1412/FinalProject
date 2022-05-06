@@ -18,6 +18,7 @@ We use boxplots and anova to pick categorical features, and then we use correlat
 
 ### Data visualization:
 
+
 ### Performance Comparison:
 - RMSE between log prices:
 + XGB: 0.1505
@@ -48,7 +49,7 @@ We use boxplots and anova to pick categorical features, and then we use correlat
 - Remove categorical features that have bad box plots and use one way ANOVA to choose your features.
 - Use the correlation matrix to choose the numerical features.
 - IMPORTANT: When do label encoding, make sure that the test data and train data have the same number of features. Some of categorical features in test set don't contain all categories in the training set. 
-- SOLUTION: Append extra rows to the dataframes so label encoding can produce the right amount of features.
+- SOLUTION: Append extra rows with features containing missing categorical features to the dataframes so label encoding can produce the right amount of features.
 
 #### Overview of the files in the repo:
 - Data analysis.ipynb: File that analyzes the training dataset.
